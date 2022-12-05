@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  color: #000;
+  font-size: 16px;
+  background-color: #ecf0f3;
+  font-family: "Montserrat", sans-serif;
+}
+.wapper {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 20px;
+  transform: translateY(75px);
+  box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+}
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 50%;
+  transition: ease 1s;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+}
+.icon:hover {
+  cursor: pointer;
+  box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+}
+.header-icon-right {
+  display: flex;
+  justify-content: right;
+}
+.header-avatar {
+  display: flex;
+  justify-content: center;
+}
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+h2.content-header-name-title {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.content-header-describe {
+  text-align: center;
+}
+.content-footer {
+  display: grid;
+  gap: 0 15px;
+  padding: 50px 123px;
+  text-align: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.content-footer-icon {
+  width: 31px;
+  height: 31px;
+  line-height: 31px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+}
+.footer-header {
+  display: grid;
+  gap: 31px;
+  padding: 50px 73px;
+  grid-template-columns: 1fr 1fr;
+}
+button.footer-btn {
+  width: 150px;
+  height: 41px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: linear 0.5s;
+  box-shadow: inset 2px 2px 4px #d1d9e6, inset -2px -2px 4px #f9f9f9;
+}
+button.footer-btn:hover {
+  box-shadow: 10px 10px 10px #d1d9e6, -10px -10px 10px #f9f9f9;
+}
+.footer-bottom {
+  display: grid;
+  padding: 0 50px;
+  cursor: pointer;
+  transition: linear 1s;
+  grid-template-columns: repeat(3, 1fr);
+}
+.footer-heart:hover{
+     color: red;
+}
+.footer-comment:hover{
+     color: #3099dc;
+}
+.footer-share:hover{
+     color: #3099dc;
+}
